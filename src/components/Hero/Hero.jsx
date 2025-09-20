@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Hero.module.css";
 import Card from "../Cards/Card";
 
-function HeroSection() {
+function Hero() {
   const cards = [
     { id: 1, title: "Web Development", desc: "Modern, scalable websites with React & Next.js.", img: "/images/web.jpg" },
     { id: 2, title: "UI/UX Design", desc: "Creative user-friendly designs using Figma.", img: "/images/uiux.jpg" },
@@ -26,4 +26,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Hero;
